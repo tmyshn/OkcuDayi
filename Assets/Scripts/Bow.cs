@@ -19,7 +19,6 @@ public class Bow : MonoBehaviour
     {
         shotPoint.right = direction;
         Debug.Log(direction);
-        Debug.Log(direction);
     }
 
     public void Shoot(float launchForce,Vector2 direction)
